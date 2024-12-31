@@ -62,7 +62,7 @@ global.SESSION_ID =
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "Private",
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
